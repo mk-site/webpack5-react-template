@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "rootDir": "./",
+        "paths": {
+            "@/*": ["./src/*"],
+            "src/*": ["./src/*"],
+            "hooks/*": ["./src/hooks/*"],
+            "utils/*": ["./src/utils/*"],
+            "pages/*": ["./src/pages/*"],
+            "action/*": ["./src/action/*"],
+            "store/*": ["./src/store/*"],
+            "component/*": ["src/component/*"],
+            "assets/*": ["./src/assets/*"]
+        },
+        "outDir": "dist",
+        "module": "esnext",
+        "target": "esnext",
+        "lib": ["es6", "dom"],
+        "sourceMap": true,
+        "jsx": "preserve",
+        "moduleResolution": "node",
+        "strict": true,
+        "allowSyntheticDefaultImports": true,
+    },
+    "include": ["./src/**/*", "./typings/**/*"],
+    "exclude": ["node_modules", "dist", "build"]
+}
