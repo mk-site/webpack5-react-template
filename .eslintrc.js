@@ -1,0 +1,20 @@
+module.exports = {
+    // root: true,
+    extends: ['mkscanner/tsx'],
+    rules: {
+        'no-undef': 0,
+        'react/jsx-indent': [1, 4, { indentLogicalExpressions: true }],
+        'react/jsx-indent-props': [1, 4],
+        'jsx-a11y/alt-text': 0,
+        'jsx-a11y/click-events-have-key-events': 0,
+        // 'jsx-a11y/no-static-element-interactions': 0,
+        'jsx-a11y/no-static-element-interactions': 0,
+        'import/extensions': 0,
+        'import/no-unresolved': 0,
+        'max-len': ['error', { code: 180 }],
+        'no-console': 0,
+        'no-continue': 0,
+        'no-param-reassign': 0,
+        'consistent-return': 0,
+    },
+};

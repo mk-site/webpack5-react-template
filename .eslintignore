@@ -1,0 +1,6 @@
+/node_modules/
+/.vscode/
+/public/
+/dist/
+/build/
+webpack.config.js

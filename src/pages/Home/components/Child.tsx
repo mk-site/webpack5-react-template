@@ -7,7 +7,6 @@ const Home = () => {
     const obj = useUserInfoActions();
     const clickChild = () => {
         obj.setMobileAction('123');
-        obj.abc('1233');
     };
     return (
         <div>
